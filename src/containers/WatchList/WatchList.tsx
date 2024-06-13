@@ -1,14 +1,15 @@
 import React from 'react';
-import {IMovie} from "../../types";
+import { IMovie } from "../../types";
 import AddMovieForm from "../../components/AddPostForm/AddMovieForm";
 import Movies from "../../components/Movies/Movies";
 
+interface Props {}
 
 interface State {
-    movies: IMovie [];
+    movies: IMovie[];
 }
 
-class WatchList extends React.Component<{}, State> {
+class WatchList extends React.Component<Props, State> {
     state: State = {
         movies: [
             {id: '123', name: 'Американский пирог'},
