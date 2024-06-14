@@ -1,0 +1,9 @@
+.form {
+    margin: 50px auto;
+}
+
+.input-message {
+    width: 300px;
+    height: 25px;
+    overflow: hidden;
+}
